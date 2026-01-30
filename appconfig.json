@@ -1,0 +1,7 @@
+{
+  "appName": "Telos Pro Helper V5",
+  "description": "Full pro-grade Alt1 Telos assistant with pixel-based auto-bind, resonance countdown, DPS, phases, and alerts",
+  "version": "1.0.0",
+  "icon": "https://runeapps.org/alt1/icons/info.png",
+  "permissions": ["pixel", "overlay", "clipboard"]
+}

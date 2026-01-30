@@ -1,0 +1,242 @@
+#timerBox{
+  position:absolute; 
+  top:6px; 
+  left:7px; 
+  height:23px;
+  width:127px;
+  white-space:pre; 
+  background:rgba(0,0,0,0.5); 
+  outline:1px solid gray; 
+  padding-top:1px;
+  padding-left:5px; 
+  padding-right:5px;
+  font-family:monospace; 
+  overflow-x:hidden; 
+  overflow-y:hidden;
+}
+
+#plusButton{
+  position:absolute; 
+  top:7px;
+  left:112px;
+  z-index: 10;
+}
+
+#minusButton{
+  position:absolute; 
+  top:7px; 
+  left:8px;
+  z-index: 10; 
+}
+
+#cMaskImage{
+  margin-top:7px;
+  position:absolute;
+  top: 0px;
+  left: 142px;
+  width:21px;
+  height:21px;
+}
+
+#upcomingBox{
+  margin-top:8px; 
+  margin-left:7px;
+  margin-right:7px;  
+  height:30px; 
+  width:calc(100% - 14px); 
+  white-space:pre; 
+  background:rgba(0,0,0,0.5); 
+  outline:1px solid gray; 
+  padding:5px; 
+  font-family:monospace; 
+  overflow-x:hidden; 
+  overflow-y:hidden;
+}
+
+#incomingBox{
+  margin-top:8px;
+  margin-left:7px; 
+  margin-right:7px; 
+  margin-bottom:5px;
+  height:55px; 
+  width:calc(100% - 14px); 
+  white-space:pre;
+  background:rgba(0,0,0,0.5); 
+  outline:1px solid gray; 
+  padding:5px; 
+  font-size:19px !important;
+  font-family:monospace; 
+  overflow-x:hidden; 
+  overflow-y:hidden;
+}
+
+#debugButton{
+  margin-top:8px;
+  margin-right:5px;
+}
+
+#settingsButton{
+  margin-top:8px;
+  margin-right:-9px;
+  background-image: url(../assets/settingsbutton.png);
+}
+    
+#infoButton{
+  margin-top:8px;
+  margin-right:5px;
+  background-image: url(../assets/infobutton.png);
+}
+
+#recalButton{
+  position:absolute;
+  top: 85px;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 231px;
+  font-size:15px;
+}
+
+#recalButton.compactMode {
+  top: 46px !important;
+}
+
+.green-border {
+  border: 2px solid #008000FF !important; 
+}
+
+.blue-border {
+  border: 2px solid #0096FFFF !important; 
+}
+
+.red-border {
+  border: 2px solid #800000FF !important; 
+}
+
+.yellow-border {
+  border: 2px solid #FFFF00FF !important; 
+}
+
+.white-border {
+  border: 2px solid #FFFFFFFF !important; 
+}
+
+.input-width {
+  width: 100px;
+}
+
+.body {
+  border: 2px solid #ffffff00; 
+}
+
+.row {
+    text-align: center;
+}
+
+.main {
+    overflow-y: scroll;
+    max-height: 75vh;
+    margin-top: 8px;
+}
+
+.modal-body,
+.modal-header,
+.modal-footer {
+    background-color:whitesmoke;
+    color: black;
+}
+
+.header {
+    text-align: center;
+    background: url(https://runeapps.org/nis/alt1-currentskin/nisbutton.png) 0px -100%/24px 400% repeat content-box;
+    background-color: black;
+    color: black;
+    font-family: 'trajan-pro-3';
+    padding: unset;
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    z-index: 1;
+}
+
+.statue-size {
+  width: 125px;
+  height: 100px;
+}
+
+.statue-size.compactMode {
+  width: 125px !important;
+  height: 90px !important;
+}
+
+.statue-size.top-statues {
+  margin-bottom: 7px;
+}
+
+.statue-size.left-statues {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.statue-compass-title {
+  margin-bottom:-6px;
+  margin-top:-2px;
+  font-weight: bold;
+}
+
+.settings-subregion {
+  margin-left: 5px;
+  position: relative;
+  border-left: 1px solid #777;
+  padding-left: 2px;
+  height:30px; 
+}
+
+.settings-subregion.bottom-subsetting {
+  border-bottom-left-radius: 6px;
+}
+
+.settings-subregion.locked {
+  opacity: 0.5;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.settings-region.locked {
+  opacity: 0.5;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+}
+
+.main-select-width {
+  width: 135px;
+}
+
+.sub-select-width {
+  width: 124px;
+}
+
+.hr.statueDivider {
+  position: absolute;
+  width: 88%;
+  top: 251px;
+  border-top: 1px solid gray;
+}
+
+.hr.statueDivider.compactMode {
+  top: 202px !important;
+}
+
+.vr.statueDivider {
+  position: absolute;
+  height: 190px;
+  top:-95px;
+  left:120px;
+  border-left: 1px solid gray;
+}
+
+.vr.statueDivider.compactMode {
+  top:-85px !important;
+  height: 170px !important;
+}
